@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{38EC225F-AAC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auth.api", "src\auth.api\auth.api.csproj", "{FE6E7008-02A2-4519-A206-1BD147890123}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auth.presentation", "src\auth.presentation\auth.presentation.csproj", "{6AB06C8A-9241-48EC-BB8B-4E8665A37762}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{FE6E7008-02A2-4519-A206-1BD147890123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE6E7008-02A2-4519-A206-1BD147890123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE6E7008-02A2-4519-A206-1BD147890123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB06C8A-9241-48EC-BB8B-4E8665A37762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB06C8A-9241-48EC-BB8B-4E8665A37762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB06C8A-9241-48EC-BB8B-4E8665A37762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB06C8A-9241-48EC-BB8B-4E8665A37762}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FE6E7008-02A2-4519-A206-1BD147890123} = {38EC225F-AAC0-42F2-9C8B-92D4E064FB98}
+		{6AB06C8A-9241-48EC-BB8B-4E8665A37762} = {38EC225F-AAC0-42F2-9C8B-92D4E064FB98}
 	EndGlobalSection
 EndGlobal
